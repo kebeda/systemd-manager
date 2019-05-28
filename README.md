@@ -12,7 +12,13 @@ This is available in the AUR as a git package: [`systemd-manager-git`](https://a
 
 ### Fedora
 
-[RPM repositories](https://copr.fedorainfracloud.org/coprs/nunodias/systemd-manager/) have been made available for Fedora 22, 23 and 24 by Nuno Dias.
+[RPM repositories](https://copr.fedorainfracloud.org/coprs/nunodias/systemd-manager/) have been made available for Fedora 22, 23 and 24 by Nuno Dias.  
+When building from source on Fedora, make sure you have the pre-requisites
+installed:
+
+```sh
+sudo dnf -y install atk atk-devel cairo cairo-devel dbus dbus-devel gdk-pixbuf2 gdk-pixbuf2-devel gtk3 gtk3-devel pango pango-devel
+```
 
 ### Building From Source
 
